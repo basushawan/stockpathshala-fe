@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { setUser } from "../utils/storage";
 import axios from "axios";
+import optBg from "../assets/verification_bg.webp";
 
 const Verification = () => {
   const { state } = useLocation();
@@ -177,7 +178,7 @@ const Verification = () => {
       {/* Left side image  */}
       <div className="flex w-full md:w-1/2">
         <img
-          src="/src/assets/verification_bg.webp"
+          src={optBg}
           alt="Verification"
           className="w-full h-full object-cover rounded-md"
         />

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { getUser } from "../utils/storage";
 import axios from "axios";
+import loginBg from "../assets/login_bg.webp";
 
 const Login = () => {
   const [userName, setUserName] = React.useState("");
@@ -79,7 +80,7 @@ const Login = () => {
       {/* Left side image  */}
       <div className="flex w-full md:w-1/2">
         <img
-          src="/src/assets/login_bg.webp"
+          src={loginBg}
           alt="Login Visual"
           className="w-full h-full object-cover rounded-md"
         />

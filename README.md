@@ -28,4 +28,23 @@ A clean, minimal, and responsive frontend clone of the Stock Pathshala app built
 
 - Fully responsive on desktop, tablet, and mobile
 - Built with Tailwind CSS (no UI libraries)
-- Sticky footer-style nav for
+- Sticky footer-style nav for small screens
+- Brushstroke visual effects on subheadings
+- Simple, intuitive layout with accessibility in mind
+
+---
+
+## ⚙️ Build Setup
+
+- **Framework:** React 19
+- **Bundler:** Vite
+- **Styling:** Tailwind CSS v4
+- **API Handling:** Axios
+- **Toasts:** SweetAlert2
+
+### 🧪 Run Locally
+
+```bash
+yarn install
+yarn dev
+```

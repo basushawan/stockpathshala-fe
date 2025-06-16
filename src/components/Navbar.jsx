@@ -39,11 +39,11 @@ const Navbar = () => {
   return (
     <>
       {/* Header for Desktop  */}
-      <div className="hidden md:block fixed top-0 left-0 right-0">
+      <div className="hidden md:block fixed top-0 left-0 right-0 h-[64px]">
         <Wrapper className="shadow-sm" />
       </div>
       {/* Footer for Mobile  */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 h-[64px]">
         <Wrapper className="border-t" />
       </div>
     </>
